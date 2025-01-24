@@ -98,7 +98,7 @@ class ManagedBrowser:
         self,
         browser_type: str = "chromium",
         user_data_dir: Optional[str] = None,
-        headless: bool = False,
+        headless: bool = True,
         logger=None,
         host: str = "localhost",
         debugging_port: int = 9222,
